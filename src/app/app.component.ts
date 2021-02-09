@@ -17,8 +17,8 @@ export class AppComponent {
   
 
 
- onTerminaCronometro($event){
+ onTerminaCronometro(event:any){
 
-    console.log($event);
+    console.log(event);
   }
 }
