@@ -1,3 +1,4 @@
-<app-sumar [num1]="numero[0]" [num2]="numero[1]" ></app-sumar>
-
-<app-sumar [num1]="numero[2]" [num2]="numero[3]" ></app-sumar>
+<cronometro [inicio]="numero[0]" (terminoCronometro)="onTerminaCronometro($event)"></cronometro>
+<cronometro [inicio]="numero[1]" (terminoCronometro)="onTerminaCronometro($event)"></cronometro>
+<cronometro [inicio]="numero[2]" (terminoCronometro)="onTerminaCronometro($event)"></cronometro>
+<cronometro [inicio]="numero[3]" (terminoCronometro)="onTerminaCronometro($event)"></cronometro>
