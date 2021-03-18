@@ -19,4 +19,4 @@ import { CronometroComponent } from './components/cronometro/cronometro.componen
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
